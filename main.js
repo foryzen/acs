@@ -5,7 +5,7 @@ var x = -1;
 
 function foryzen(e){
     if(e.code!=='Backspace'){
-        if(x<=373){
+        if(x<=37){
             x++;
             document.getElementById('console').innerHTML = array[x];
         }
