@@ -1,11 +1,10 @@
 document.addEventListener('keydown',foryzen);
-//setTimeout(()=>{alert('適当にキーボードを押してね')},100);
 
 var x = 0;
 
 setTimeout(()=>{
     document.getElementById('console').innerHTML = array[x];
-},1)
+},1);
 
 function foryzen(e){
     if(e.code!=='Backspace'){
@@ -31,7 +30,7 @@ function a(){
     if(x==373){
         setTimeout(b,500);
     }else{
-        document.getElementById('r-line').style.opacity = 0
+        document.getElementById('r-line').style.opacity = 0;
         setTimeout(b,500);
     }
 }
@@ -40,9 +39,19 @@ function b(){
     if(x==373){
         setTimeout(a,500);
     }else{
-        document.getElementById('r-line').style.opacity = 1
+        document.getElementById('r-line').style.opacity = 1;
         setTimeout(a,500);
     }
+}
+
+setTimeout(p,1);
+
+function p(){
+    setTimeout(q,1);
+}
+
+function q(){
+    setTimeout(p,1);
 }
 
 var array = [
