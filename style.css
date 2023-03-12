@@ -10,3 +10,11 @@ body{
     color: white;
     margin: 30px;
 }
+
+#r-line{
+    height: 30px;
+    width: 5px;
+    background: white;
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
